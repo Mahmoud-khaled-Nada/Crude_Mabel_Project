@@ -1,0 +1,15 @@
+{
+  "appId": "com.nada.mahmoud",
+  "appName": "AppTest",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": [
+        "badge",
+        "sound",
+        "alert"
+      ]
+    }
+  }
+}

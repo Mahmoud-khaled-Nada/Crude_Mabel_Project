@@ -1,8 +1,10 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
-import { RouteRecordRaw } from 'vue-router';
 import HomePage from '../views/HomePage.vue'
+import NadaOne from '../components/home/NadaOne.vue'
+import NadaTwo from '../components/home/NadaTwo.vue'
+import NadaThree from '../components/home/NadaThree.vue'
 
-const routes: Array<RouteRecordRaw> = [
+const routes = [
   {
     path: '/',
     redirect: '/home'
@@ -11,6 +13,17 @@ const routes: Array<RouteRecordRaw> = [
     path: '/home',
     name: 'Home',
     component: HomePage
+  },
+  {
+    path: '/NadaOne',
+    component: NadaOne
+  },
+  {
+    path: '/NadaTwo',
+    component: NadaTwo
+  },  {
+    path: '/NadaThree',
+    component: NadaThree
   }
 ]
 
